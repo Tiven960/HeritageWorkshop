@@ -8,6 +8,6 @@ public abstract class GeometricFigure
     public abstract double GetPerimeter();
    public override string ToString()
    {
-        return  $"{Name,-15}  =>  Area.....:  {GetArea(),15:N5}\t" + $" Perimeter:"+$" {GetPerimeter(),15:N5}";
+        return  $"{Name,-15}  =>  Area.....:  {GetArea(),15:N5}\t" + $" Perimeter: {GetPerimeter(),15:N5}";
    }
 }
